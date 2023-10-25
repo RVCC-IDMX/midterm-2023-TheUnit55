@@ -1,0 +1,71 @@
+/* CSS for styling the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* background for header */
+header {
+    background-color: #ed8a73;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+/* header 2 style */
+h2 {
+    color: #000;
+    text-shadow: 2px 1px 2px #fff;
+}
+/* Main Section Styles */
+main {
+    margin: 20px;
+    background-color: lightblue;
+    padding: 20px;
+}
+/* unordered list style */
+ul {
+    list-style: none;
+    padding: 0;
+}
+/* list item style */
+ul li {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ed8a73;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+/* Style for portfolio webpages */
+ul li a {
+    background-color: rgb(253, 60, 27);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+    text-decoration: none;
+    color: #000;
+}
+/* image Gallery Style */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+/* Image Styles within the image gallery*/
+img {
+    max-width: 100%;
+}
+/* box shadow for images */
+.image-gallery img {
+    max-width: 100%;
+    box-shadow: 3px 3px 6px #000;
+
+}
+/* Footer section style */
+footer {
+    text-align: center;
+    color: #ed8a73;
+    text-shadow: 1px 1px 2px #000;
+}
